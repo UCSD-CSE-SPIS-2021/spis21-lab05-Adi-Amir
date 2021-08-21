@@ -46,7 +46,6 @@ def invert_block(im):
     for y in range(height//2):
         (red, green, blue) = im.getpixel((x, y))
         im.putpixel((x,y),(255-red,255-green,255-blue))
-            
-#invert(bear)
-invert_block(bear)
+
+
 bear.save("tmp_Amir.png")
